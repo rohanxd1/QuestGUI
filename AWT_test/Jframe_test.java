@@ -30,10 +30,8 @@ public class Jframe_test extends JFrame implements ActionListener
 		setSize(400,400);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
-	}
-	public static void main(String args[])
-	{
-		Jframe_test j=new Jframe_test();
+		
+		
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) 
@@ -44,5 +42,11 @@ public class Jframe_test extends JFrame implements ActionListener
 		l1.setText(sum+"");
 		
 	}
+
+	public static void main(String args[])
+	{
+		Jframe_test j=new Jframe_test();
+	}
+
 
 }
